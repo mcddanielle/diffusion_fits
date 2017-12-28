@@ -1,0 +1,4 @@
+Run on file diffusion_velocity_data.csv
+Produces diffusion.png
+
+Currently a "stupid code" - it fits the entire time interval, even if the diffusion data clearly has different regimes.  It is currently hardcoded to fit a shorter time interval for a specific data set.  Is good to run on a batch of data files as a first pass, but needs to be checked by a human. 
